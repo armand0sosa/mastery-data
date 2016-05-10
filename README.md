@@ -7,19 +7,19 @@ This application is useful for consult your progress with your champions and sha
 
 HIGHLIGHTS
 
-• Twitter implementation
-• Responsive Design, you can use this tool with a desktop computer, tablet or with a mobile
-• Friendly design
-• Easy use
-• Complete champion mastery data
-• Total Score to compare with your friends
-• Look if you have won a chest with the champion
-• Share with your friends
+• Twitter implementation.
+• Responsive Design, you can use this tool with a desktop computer, tablet or with a mobile.
+• Friendly design.
+• Easy use.
+• Complete champion mastery data.
+• Total Score to compare with your friends.
+• Look if you have won a chest with the champion.
+• Share with your friends.
 
 
 INSTALLATION
 
-Dowload this app.
+Dowload this app and place in the htdocs folder of your apache server.
 
 Create a database named "lolmaster"
 
@@ -53,11 +53,11 @@ INSERT INTO lolmaster.`sys_data` VALUES (1,'YOURAPIKEY');
 
 Go to application/config/config.php
 And change $config['base_url'] = 'http://localhost/masterydata' 
-to $config['base_url'] = 'http://YOURSERVER/FILENAME'
+to $config['base_url'] = 'http://YOURSERVERIP/FILENAME'
 
 Go to application/config/constants.php
 And change define('URL','http://localhost/masterydata');
-to define('URL','http://YOURSERVER/FILENAME');
+to define('URL','http://YOURSERVERIP/FILENAME');
 
 Go to application/config/database.php
 And change 
