@@ -16,4 +16,3 @@
 
 </head>
 <body id="page-top" data-spy="scroll">
-<div id="fb-root"></div>
