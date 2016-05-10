@@ -5,19 +5,19 @@ Live Demo: http://surlavie.com
 
 This application is useful for consult your progress with your champions and share it with your friends on facebook. The tool displays a list of the champions you’ve used, from the highets to the lower level. For every champion It show the avatar, the spells with their descriptions and the ulty power, along the achivements obtained on curse. On the left side of the aplication is a twitter box to being in contact with social media with the trending topin #LeagueOfLeguens. This aplication helps keeping you aware of your achivements and compare your profile with other players. It’s a record of progress that can be consulted by any person around the world so take a moment to check the best players in the world, or anyone you find interesting.
 
-HIGHLIGHTS
+**HIGHLIGHTS**
 
-• Twitter implementation.
-• Responsive Design, you can use this tool with a desktop computer, tablet or with a mobile.
-• Friendly design.
-• Easy use.
-• Complete champion mastery data.
-• Total Score to compare with your friends.
-• Look if you have won a chest with the champion.
-• Share with your friends.
+* Twitter implementation
+* Responsive Design, you can use this tool with a desktop computer, tablet or with a mobile
+* Friendly design
+* Easy use
+* Complete champion mastery data
+* Total Score to compare with your friends
+* Look if you have won a chest with the champion
+* Share with your friends
 
 
-INSTALLATION
+**INSTALLATION**
 
 Dowload this app and place in the htdocs folder of your apache server.
 
@@ -26,6 +26,7 @@ Create a database named "lolmaster"
 Execute this script in the database:
 NOTE: before running the script change the word YOURAPIKEY in the last insert line with your api key provided by League of Legends.
 
+```
 /* Script init*/
 DROP TABLE IF EXISTS lolmaster.`cat_region`;
 
@@ -49,27 +50,42 @@ CREATE TABLE lolmaster.`sys_data` (
 
 INSERT INTO lolmaster.`sys_data` VALUES (1,'YOURAPIKEY');
 /* Script End*/
-
+```
 
 Go to application/config/config.php
-And change $config['base_url'] = 'http://localhost/masterydata' 
-to $config['base_url'] = 'http://YOURSERVERIP/FILENAME'
+And change 
+```
+$config['base_url'] = 'http://localhost/masterydata' 
+```
+to 
+```
+$config['base_url'] = 'http://YOURSERVERIP/FILENAME'
+```
 
 Go to application/config/constants.php
-And change define('URL','http://localhost/masterydata');
-to define('URL','http://YOURSERVERIP/FILENAME');
+And change 
+```
+define('URL','http://localhost/masterydata');
+```
+to 
+```
+define('URL','http://YOURSERVERIP/FILENAME');
+```
 
 Go to application/config/database.php
 And change 
-'hostname' => 'localhost',
-'username' => 'user',
-'password' => 'pass',
-'database' => 'database',
+```
+ 'hostname' => 'localhost',
+ 'username' => 'user',
+ 'password' => 'pass',
+ 'database' => 'database',
+ ```
 to 
-'hostname' => 'YOURSERVER',
-'username' => 'YOURUSERNAME',
-'password' => 'YOURPASSWORD',
-'database' => 'YOURDATABASE',
-
+```
+ 'hostname' => 'YOURSERVER',
+ 'username' => 'YOURUSERNAME',
+ 'password' => 'YOURPASSWORD',
+ 'database' => 'YOURDATABASE',
+```
 
 Read Documentation.pdf for more information.
