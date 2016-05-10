@@ -68,3 +68,6 @@ to
 'username' => 'YOURUSERNAME',
 'password' => 'YOURPASSWORD',
 'database' => 'YOURDATABASE',
+
+
+Read Documentation.pdf for more information
