@@ -1,6 +1,8 @@
 # mastery-data
 LOL - Champion Mastery Data
 
+Live Demo: http://surlavie.com
+
 This application is useful for consult your progress with your champions and share it with your friends on facebook. The tool displays a list of the champions you’ve used, from the highets to the lower level. For every champion It show the avatar, the spells with their descriptions and the ulty power, along the achivements obtained on curse. On the left side of the aplication is a twitter box to being in contact with social media with the trending topin #LeagueOfLeguens. This aplication helps keeping you aware of your achivements and compare your profile with other players. It’s a record of progress that can be consulted by any person around the world so take a moment to check the best players in the world, or anyone you find interesting.
 
 HIGHLIGHTS
@@ -17,7 +19,7 @@ HIGHLIGHTS
 
 INSTALLATION
 
-Fork this app.
+Dowload this app.
 
 Create a database named "lolmaster"
 
@@ -70,4 +72,4 @@ to
 'database' => 'YOURDATABASE',
 
 
-Read Documentation.pdf for more information
+Read Documentation.pdf for more information.
