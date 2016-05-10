@@ -19,7 +19,7 @@ HIGHLIGHTS
 
 INSTALLATION
 
-Fork this app.
+Dowload this app.
 
 Create a database named "lolmaster"
 
