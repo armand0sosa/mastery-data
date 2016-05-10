@@ -12,13 +12,16 @@
 }
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    background-image: url(https://s3.amazonaws.com/latam-storage/public/esport-assets/images/esports-bg.jpg) !important;
+    background-image: url(https://scontent-mia1-1.xx.fbcdn.net/t31.0-8/1926303_685774131479634_1936548443_o.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 .main-logo {
     width: 100%;
     background-image: url(http://lan.leagueoflegends.com/sites/default/files/upload/backgrounds/msi16_webcontent_lolrotator_01_lores.jpg);
     text-align: center;
     vertical-align: middle;
+    margin-top: -10px;
 }
 .logo img {
     height: 60px;
